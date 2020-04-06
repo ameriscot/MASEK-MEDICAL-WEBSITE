@@ -1,0 +1,28 @@
+{
+  "name": "masek-medical-website",
+  "version": "1.0.0",
+  "description": "Testing the Masek Medical website",
+  "main": "index.js",
+  "dependencies": {
+    "webdriverio": "^6.0.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "@wdio/cli": "^6.0.13",
+    "@wdio/local-runner": "^6.0.13",
+    "@wdio/mocha-framework": "^6.0.13",
+    "@wdio/spec-reporter": "^6.0.12",
+    "@wdio/sync": "^6.0.12",
+    "chromedriver": "^80.0.1",
+    "prettier": "^2.0.2",
+    "wdio-chromedriver-service": "^6.0.1"
+  },
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "Eric Ouellette",
+  "license": "ISC"
+}
